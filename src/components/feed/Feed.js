@@ -5,6 +5,7 @@ import EventNoteIcon from "@material-ui/icons/EventNote";
 import CalendarViewDayIcon from "@material-ui/icons/CalendarViewDay";
 import InputOption from "../input-option/InputOption";
 import "./Feed.css";
+import Post from "../post/Post";
 
 function Feed() {
   return (
@@ -29,6 +30,7 @@ function Feed() {
         </div>
       </div>
       {/* Posts */}
+      <Post name="Donald Duck" message="waak!!" />
     </div>
   );
 }
